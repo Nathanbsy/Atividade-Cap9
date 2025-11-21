@@ -9,23 +9,17 @@
     list-style: none;
 }
 
-:root {
-    --bg-color: #F8F8F8;
-
-}
-
 a {
     text-decoration: none;
 }
 
 body {
-    background-color: var(--bg-color);
-    transition: all ease .5s;
+    transition: all ease .2s;
 }
 
 .card-fintech {
     border-radius: 15px;
-    transition: all ease .5s;
+    transition: all ease .2s;
 }
 
 .card-fintech:hover {
@@ -35,4 +29,33 @@ body {
 .navbar-link {
     letter-spacing: 1px;
     font-size: 1.5rem;
+}
+
+.bolinha {
+    background-color: #fff;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    transition: all ease-in-out .4s;
+}
+
+.btn-tema {
+    width: 70px;
+    height: 30px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    background-color: #C8C8C8;
+    transition: all ease 0.5s;
+}
+
+.btn-tema.ativo {
+    background: linear-gradient(90deg, #55CCFF, #7476F9);
+}
+
+.bolinha.ativo {
+    transform: translateX(35px);
 }
