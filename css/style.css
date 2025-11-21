@@ -17,6 +17,10 @@ body {
     transition: all ease .2s;
 }
 
+div, th, td {
+    transition: all ease .3s;
+}
+
 .card-fintech {
     border-radius: 15px;
     transition: all ease .2s;
